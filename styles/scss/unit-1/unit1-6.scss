@@ -1,0 +1,41 @@
+.u3-bq + .u5-ba {
+    margin-top: 2rem;
+
+    p {
+        margin-bottom: 0;
+    }
+}
+
+.u16-block {
+    padding: 1rem;
+    background: $color-blanco;
+    border: $color-azul 2px solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    margin-left: -1rem;
+    align-items: center;
+    margin-top: 1rem;
+
+    img {
+        display: block;
+        width: 150px;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    li {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .u16-block {
+        flex-direction: row;
+
+        img {
+            margin-bottom: 0;
+        }
+    }
+}

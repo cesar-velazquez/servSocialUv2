@@ -1,0 +1,14 @@
+@import 'unit-4.1';
+
+.u4-img-intro {
+    height: auto;
+    display: block;
+    margin: auto;
+    max-width: 500px;
+}
+
+.act-interactiva {
+    @extend .seccion;
+    padding: 2rem;
+    border: $color-naranja 2px solid;
+}

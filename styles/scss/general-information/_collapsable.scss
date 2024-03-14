@@ -1,0 +1,83 @@
+.collapsables-gi {
+    margin-bottom: 1rem;
+
+    summary {
+        background: $color-azul-claro;
+        color: $color-morado;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        width: 100%;
+        display: block;
+    }
+
+    .collapsables-gi__content {
+        background: #fdfdfd;
+        padding: 2rem;
+    }
+
+    summary::marker {
+        color: #E7EFF8;
+    }
+
+    summary::after {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        content: '+';
+        color: $color-morado;
+        font-size: 2rem;
+        right: 1rem;
+    }
+
+}
+
+.collapsables-gi[open] {
+    summary::after {
+        content: '-';
+    }
+}
+
+.collapsables-gi {
+    table {
+        width: 100%;
+        margin-bottom: 1rem;
+
+        ul {
+            margin-bottom: 0;
+        }
+    }
+
+    th {
+        background: $color-azul;
+        color: $color-blanco;
+        font-weight: 600;
+        text-align: center;
+        padding: .5rem;
+        border-left: $color-blanco 1px solid;
+        border-right: $color-blanco 1px solid;
+    }
+
+    th:last-of-type {
+        border-right: none;
+    }
+
+    th:first-of-type {
+        border-left: none;
+    }
+
+    tbody tr:nth-child(odd) {
+        background: $color-azul-claro;
+    }
+    
+    td {
+        border: $color-azul 1px solid;
+        padding: .5rem;
+        border-top: none;
+    }
+
+    .titulo-tablas {
+        color: $color-azul;
+    }
+
+}

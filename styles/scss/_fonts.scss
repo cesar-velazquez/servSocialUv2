@@ -1,0 +1,54 @@
+html, body {
+    font-family: Lato !important;
+    text-transform: none;
+    color: #000000;
+}
+
+.btn {
+    text-transform: none;
+}
+
+.seccion__titulo, .ws__titulo, .titulo {
+    font-size: 1.3rem !important;
+}
+
+p, li, button, .modal__encabezado, summary, .info-ee, .sidebar__enlace, .header__brand, th, td, .texto {
+    font-size: 1.1rem !important;
+}
+
+.header__bran {
+    text-overflow: ellipsis;
+}
+
+.pleca__uv {
+    font-size: 1rem;
+    letter-spacing: 1.75px;
+}
+
+table, tr, td, th {
+    color: #000000;
+    @extend .texto;
+}
+
+@media screen and (min-width: 768px) {
+    .seccion__titulo, .ws__titulo, .titulo {
+        font-size: 2rem !important;
+    }
+    p, li, button, .modal__encabezado, summary, .info-ee, .sidebar__enlace, .header__brand, th, td, .texto {
+        font-size: 1.3rem !important;
+    }
+}
+
+.texto-morado {
+    color: $color-morado;
+}
+
+.texto-naranja {
+    color: $color-naranja;
+}
+
+@media screen and (min-width: 992px) {
+    .modal-lg, .modal-xl {
+        max-width: 1020px;
+    }
+}

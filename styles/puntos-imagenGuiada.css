@@ -1,0 +1,86 @@
+.puntosMenu{ 
+    background: #F8F1EC url(../images/section-2/SS-S2_ORGANIZING-R.png) no-repeat center 100% /56%; 
+    min-height:28rem;     
+    position: relative;
+    margin: 2rem auto;
+    }
+.contenedorTextos {background:#EFEFEF; padding:2rem; padding-right:4rem; }
+
+
+.btnPuntos{
+    position: absolute;
+    background: #492368;
+    color: #fff;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2rem;
+    border: 2px solid #492368;
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
+.btnPuntos:hover, .btnPuntos:focus-visible, .btnPuntos:focus{ background:#fff; color:#492368; font-weight:bold;  outline:none;  }
+#actBoton-1{ top:12.5rem; left:17.8rem; }
+#actBoton-2{ top:12.5rem; left:27.9rem; }
+#actBoton-3{ top:12.5rem; right:28.8rem; }
+#actBoton-4{ top:12.5rem; right:19.1rem; }
+
+.botonesInfo{ 
+    position: absolute;
+    border: 2px solid #492368;
+    padding: 1rem 3rem 1rem 1rem;
+    background: #fff;
+    z-index: -1;
+}
+
+.botonInfo-1{ top:2rem; left:2rem; width:94%; }
+.botonInfo-2{ top:2rem; left:2rem; width:94%; }/*18*/
+.botonInfo-3{ top:2rem; left:2rem; width:94%; }
+.botonInfo-4{ top:2rem; left:2rem; width:94%; }
+.muestrabtn{ z-index:3 }
+
+.btn-animacion{
+    
+    background: #393E7C;
+    color: #fff;
+   
+    text-align: center;
+    line-height: 2rem;
+    border: 2px solid #393E7C;
+
+}
+.btn-animacion:hover{ background:#fff; color:#393E7C;  }
+.btn-cerrar {
+    right: 0.5rem;
+    top: 0.5rem; 
+
+}
+
+.btn-cerrar .fa-times{ transform: none; transition: none; }
+
+.mb-1rem{ margin-bottom:1rem; }
+
+
+@media screen and (max-width:1199px) {
+    .puntosMenu { min-height:26rem; }
+    #actBoton-1 { top:12.5rem; left:14.7rem; }
+    #actBoton-2 { top:12.5rem; left:17.7em; }
+    #actBoton-3 { top:12.5rem; right:24.0rem; }
+    #actBoton-4 { top:12.5rem; right:15.9rem; }
+}
+
+@media screen and (max-width:1199px) {
+    .botonInfo-1 { top:2rem; left:2rem; width:90.7%; }
+    .botonInfo-2 { top:2rem; left:2rem; width:90.7%; }
+    .botonInfo-3 { top:2rem; left:2rem; width:90.7%; }
+    .botonInfo-4 { top:2rem; left:2rem; width:90.7%; }
+    .puntosMenu { min-height: 28rem; }
+    #actBoton-1 { top:17rem; left:10.8rem; }
+    #actBoton-2 { top:17rem; left:13em; }
+    #actBoton-3 { top:17rem; right:17.5rem; }
+    #actBoton-4 { top:17rem; right:11.4rem; }
+    .imguiadam{ width:100%; padding:1rem; background-color:#F8F1EC; margin-bottom:1rem; }
+    .img100{ width:100%; }
+}

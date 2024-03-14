@@ -1,0 +1,70 @@
+.seccion {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.actividad {
+    @extend .seccion;
+}
+
+.seccion__titulo {
+    border-bottom: $color-naranja 4px solid;
+    display: inline-block;
+    margin: 0 0 1rem 0;
+    padding-bottom: .5rem;
+
+}
+
+.seccion__texto {
+    margin-bottom: 0;
+}
+
+.seccion--dg-1 {
+    background: $color-azul-claro;
+}
+
+.seccion--dg-2 {
+    background: $color-amarillo;
+}
+
+.linea-naranja {
+    position: relative;
+    &::after {
+        content: " ";
+        position: absolute;
+        width: 25%;
+        background: $color-naranja;
+        height: 2px;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.unidad__titulo {
+    @extend .titulo;
+    padding-bottom: 1rem;
+    text-align: center;
+    @extend .linea-naranja;
+    
+
+    span {
+        color: $color-azul;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .unidad__titulo {
+        span {
+            display: inline-block;
+        }
+    }
+
+    .seccion {
+        padding-bottom: 4rem;
+        padding-top: 4rem;
+        margin-bottom: 4rem;
+    }
+}

@@ -1,0 +1,15 @@
+.pleca {
+    position: fixed;
+    text-align: right;
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.pleca__uv {
+    align-self: start;
+    background-color: #17529C;
+    color: white !important;
+    letter-spacing: .75px;
+    padding: .3rem;
+}

@@ -1,0 +1,72 @@
+@import 'unit1-1.scss';
+@import 'unit1-2.scss';
+@import 'unit1-3.scss';
+@import 'unit1-4.scss';
+@import 'unit1-5.scss';
+@import 'unit1-6.scss';
+@import 'unit1-7.scss';
+
+.u1-p1 {
+    padding: 1rem 0;
+    @extend .linea-naranja;
+}
+
+.u1-p1__titulo {
+    font-weight: 700;
+    @extend .texto;
+    color: $color-naranja;
+    text-align: center;
+}
+
+.u1-p1__img {
+    @extend .img-full;
+    max-width: 100%;
+    width: auto;
+}
+.u1-p1__img--desk {
+    @extend .img-full;
+    padding: 1rem;
+}
+.u1-p1__btn--desk {
+    width: 100%;
+    border: $color-morado 2px solid !important;
+    background: $color-morado;
+    color: $color-blanco !important;
+    border-radius: .5rem;
+    padding: 1rem 1.5rem;
+}
+.u1-p1__btn--desk:hover {
+    background: $color-blanco;
+    color: $color-morado !important;
+}
+
+
+.u1-p1__btn--desk--g {
+    @extend .u1-p1__btn--desk;
+    padding: 1.7rem 2rem;
+}
+
+
+.u1-p1__btn--desk--g {
+    padding: .5rem 1rem;
+    height: 100px;
+}
+
+
+.tit-modal {
+    display: none;
+}
+
+.tit-mov {
+    display: block;
+}
+
+@media screen and (min-width: 768px) {
+    .tit-modal {
+        display: block;
+    }
+    
+    .tit-mov {
+        display: none;
+    }
+}

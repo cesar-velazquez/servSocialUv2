@@ -1,0 +1,38 @@
+.u3-bq {
+    @extend .texto;
+    padding: 1rem;
+    border: $color-azul 2px solid;
+    margin: auto;
+    margin-bottom: 1rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    max-width: 900px;
+
+    blockquote {
+        background: $color-azul-claro;
+        padding: 2rem 3rem;
+        margin-bottom: 0;
+        border-top-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+    }
+
+    &+p {
+        text-align: right;
+    }
+}
+
+.u5-ba {
+    padding: 2rem;
+    background: #f5efcf;
+    margin-bottom: 1rem;
+
+    p {
+        margin-bottom: 0;
+    }
+
+    a {
+        color: $color-azul;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+}

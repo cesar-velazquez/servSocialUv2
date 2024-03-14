@@ -1,0 +1,40 @@
+.contenido-principal {
+    margin-top: 6rem;
+}
+
+.visible-solo-movil {
+    display: block;
+}
+
+.visible-solo-escritorio {
+    display: none;
+}
+
+.img-full {
+    display: block;
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .visible-solo-movil {
+        display: none;
+    }
+    
+    .visible-solo-escritorio {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      max-width: 1140px;
+    }
+    }
+
+@media screen and (min-width: 1400px) {
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  max-width: 1140px;
+}
+}

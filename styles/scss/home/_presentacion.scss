@@ -1,0 +1,91 @@
+.presentacion {
+    display: grid;
+    grid-template-columns: 1fr max-content 3fr;
+    min-height: 600px;
+    height: 100vh;
+    width: 100%;
+}
+
+.presentacion__titulo {
+    color: #fff;
+    grid-column: 2;
+    grid-row: 2;
+    z-index: 1;
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+.presentacion__contenedor-liz {
+    background: url("../images/index/flor.png") no-repeat right center $color-morado;
+    grid-column: 1 / 4;
+    grid-row: 1 / 4;
+}
+
+.presentacion__contenedor-imagen {
+    background: $color-naranja;
+    display: none;
+    height: 25vw;
+    width: 30vw;
+
+    img {
+        display: block;
+        height: 100%;
+        margin: auto;
+        max-height: 400px;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .presentacion {
+        display: block;
+        min-height: 500px;
+        position: relative;
+        height: 100vh;
+    }
+
+    .presentacion__titulo {
+        position: absolute;
+        width: 17%;
+        left: 12%;
+        top: 43%;
+        padding-left: 0.5em;
+        font-size: 2em;
+        min-height: 120px;
+        min-width: 230px;
+        max-width: 300px;
+        min-width: 250px;
+
+        h1 {
+            color: $color-morado;
+            border-left: 5px $color-naranja solid;
+            padding: .5rem;
+        }
+    }
+
+    .presentacion__contenedor-imagen {
+        height: 50%;
+        width: 41%;
+        left: 43%;
+        background: $color-naranja;
+        position: absolute;
+        top: 25%;
+        min-width: 350px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 90%;
+        }
+    }
+
+    .presentacion__contenedor-liz {
+        height: 100%;
+        width: 50%;
+        right: 0;
+        position: absolute;
+    }
+}

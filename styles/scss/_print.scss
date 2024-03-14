@@ -1,0 +1,164 @@
+.solo-impresion {
+    display: none;
+}
+
+.aire-espacio {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.bloque-o {
+    padding: 2rem;
+}
+
+@media print {
+    .act-interactiva {
+        margin-top: 0;
+        .btn-actividades {
+            display: none;
+        }
+    }
+
+    #act01 {
+        .contenedor-act {
+            display: none;
+        }
+    }
+
+    #act01.act01--escritorio {
+        .imp--escritorio {
+            display: block;
+        }
+    }
+    
+    #act01.act01--movil {
+        .imp--movil {
+            display: block;
+        }
+    }
+
+    select {
+        appearance: none !important;
+    }
+
+    .act-interactiva {
+        border: none;
+        padding: 0;
+    }
+
+    .input-linea {
+        width: 100px;
+    }
+
+    p {
+        margin-bottom: .5rem !important;
+    }
+
+    table p {
+        margin-bottom: 0 !important;
+    }
+
+    td {
+        padding: .5rem;
+    }
+
+    hr {
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .invisible-impresion {
+        display: none;
+    }
+
+    .u4-a1 {
+        margin-bottom: 1rem !important;
+    }
+
+    .text-right {
+        text-align: right !important;
+    }
+
+    .solo-impresion {
+        display: block;
+    }
+
+    .impresion-h1 {
+        display: inline-block !important;
+        color: $color-azul !important;
+        font-weight: 700 !important;
+        margin-bottom: .5rem !important;
+        padding: 0 !important;
+        border: none !important;
+    }
+
+    .impresion-h2 {
+        font-weight: 400 !important;
+        margin-bottom: .5rem !important;
+        padding: 0 !important;
+        border: none !important;
+    }
+
+    .impresion-h3 {
+        font-weight: 400 !important;
+        line-height: 1;
+        margin-bottom: .5rem !important;
+        padding: 0 !important;
+
+        span {
+            font-weight: 400 !important;
+            line-height: 1;
+            margin-bottom: .5rem !important;
+            padding: 0 !important;
+            border: none !important;
+            margin-bottom: 0 !important;
+        }
+
+        img {
+            display: none;
+        }
+    }
+
+    .impresion-h3::after {
+        display: none !important;
+    }
+
+    .unit-title::after {
+        display: none !important;
+    }
+
+    .aire-espacio {
+        margin: 0 !important;
+    }
+
+    .bloque-imp {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .romper-impresion {
+        break-inside: auto !important;
+        p {
+            break-inside: auto !important;
+        }
+    }
+    span {
+        break-inside: avoid !important;
+    }
+    .regresar-impresion {
+        padding: 0;
+        background: white;
+    }
+    .bloque-o {
+        border: none;
+        padding: 0;
+    }
+}
+
+.impresion-h2 {
+    @extend .texto;
+}
+
+.seccion {
+    margin-bottom: .5rem;
+}

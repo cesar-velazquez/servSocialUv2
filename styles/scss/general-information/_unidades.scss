@@ -1,0 +1,62 @@
+.contenedor-unidades-modal {
+    display: inline-flex;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+    // box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    background: hsla(212, 55%, 94%, 1);
+    background: linear-gradient(0deg, hsla(212, 55%, 94%, 1) 0%, hsla(0, 0%, 100%, 1) 5%);
+    padding: 2rem 4rem;
+}
+
+.btn--unit {
+    color: $color-morado;
+    border: $color-naranja 1px solid;
+    height: 6rem;
+    width: 6rem;
+    text-transform: none;
+    border-radius: 50%;
+    padding: 4px;
+    font-size: 1rem;
+    box-shadow: none;
+}
+
+.btn--unit:hover {
+    border: $color-naranja 1px solid;
+}
+
+.unidades__titulo {
+    color: $color-naranja;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.btn--unit__decoration {
+    background: $color-azul-claro;
+    display: inline-flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.btn--unit:hover {
+    box-shadow: $sombra;
+}
+
+.seccion-unidades {
+    .movil-unidad {
+        padding: 1rem;
+    }
+
+    .movil-unidad:nth-child(odd) {
+        background: $color-azul-claro;
+    }
+
+    .movil-unidad:last-child {
+        box-shadow: rgba(26, 82, 157, 0.5) 0px 30px 20px -30px;
+    }
+}

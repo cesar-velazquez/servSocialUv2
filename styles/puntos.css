@@ -1,0 +1,150 @@
+.puntosMenu{ 
+    margin: 3rem auto;
+    
+    min-height:27rem; 
+    padding: 2rem;    
+    padding-left:24rem;
+    position: relative;
+    --mdb-btn-box-shadow: 0 4px 9px -4px rgba(0,0,0,0.35);
+    --mdb-btn-hover-box-shadow: 0 8px 9px -4px rgba(0,0,0,0.15),0 4px 18px 0 rgba(0,0,0,0.1);
+    --mdb-btn-focus-box-shadow: 0 8px 9px -4px rgba(0,0,0,0.15),0 4px 18px 0 rgba(0,0,0,0.1);
+    --mdb-btn-active-box-shadow: 0 8px 9px -4px rgba(0,0,0,0.15),0 4px 18px 0 rgba(0,0,0,0.1);
+    box-shadow: var(--mdb-btn-box-shadow);
+    border-radius: 15px;
+    background-color: #EFEFEF;
+
+
+    }
+.contenedorTextos {background:#EFEFEF; padding:2rem; padding-right:4rem; }
+
+
+.btnPuntos{
+    position: absolute;
+    background: #482567;    
+    color: #fff;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 3rem;
+    border: 3px solid #482567;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+#actBoton-0{ 
+    position: absolute;
+    background: none;
+    color: #000;
+    height: 3.5rem;
+    width: 21.5rem;
+    border-radius: 0%;
+    text-align: center;
+    line-height: 2rem;
+    border: 0;
+    font-weight: normal;
+    font-size: 1.3rem;
+    padding: 0;
+    text-align: left;
+}
+
+
+
+.btnPuntos.activo, .btnPuntos.activo:hover, .btnPuntos.activo:focus-visible, .btnPuntos.activo:focus{ background:#E6E9F4; color:#393E7C; border: 2px solid #E6E9F4 !important; outline:none; }
+#actBoton-0{ top: 2rem; left:2rem; }
+#actBoton-1{ top: 10rem; left: 2rem; background:#482567 url("../images/section-1/SS-_NA-01.png") no-repeat center -18px; background-size:7rem; }
+#actBoton-1:hover{ background-color:#fff; }
+#actBoton-1.activo{ background-color:#BBA4DD; }
+#actBoton-2{ top: 10rem; left: 9rem; background:#482567 url("../images/section-1/SS-_NA-02.png") no-repeat center -21px; background-size:7rem; }
+#actBoton-2:hover{ background-color:#fff; }
+#actBoton-2.activo{ background-color:#BBA4DD; }
+#actBoton-3{ top: 10rem; left: 16rem; background:#482567 url("../images/section-1/SS-_NA-03.png") no-repeat center -21px; background-size:7rem; }
+#actBoton-3:hover{ background-color:#fff; }
+#actBoton-3.activo{ background-color:#BBA4DD; }
+#actBoton-4{ top: 18rem; left: 2rem; background:#482567 url("../images/section-1/SS-_NA-04.png") no-repeat center -21px; background-size:7rem; }
+#actBoton-4:hover{ background-color:#fff; }
+#actBoton-4.activo{ background-color:#BBA4DD; }
+#actBoton-5{ top: 18rem; left: 9rem; background:#482567 url("../images/section-1/SS-_NA-05.png") no-repeat center -18px; background-size:7rem; }
+#actBoton-5:hover{ background-color:#fff; }
+#actBoton-5.activo{ background-color:#BBA4DD; }
+#actBoton-6{ top: 18rem; left: 16rem; background:#482567 url("../images/section-1/SS-_NA-06.png") no-repeat center -18px; background-size:7rem; }
+#actBoton-6:hover{ background-color:#fff; }
+#actBoton-6.activo{ background-color:#BBA4DD; }
+
+
+
+.contenedorTextosAdic{ 
+    background: #fff;
+    padding: 2rem;|
+    padding-top: 3rem;
+    min-height: 22rem;
+    border: 3px solid #482567;
+    border-radius:15px;
+}
+
+.contenedorTextosAdic p{ 
+    width: 57%;
+}
+
+.botonesInfo{ 
+    position: absolute;
+    z-index: -1;
+}
+
+.botonInfo-1{ top: 3.5rem; }
+.botonInfo-2{ top: 6.5rem; }
+.botonInfo-3{ top: 9.5rem; }
+.botonInfo-4{ top: 14.5rem; }
+.botonInfo-5{ top: 17.5rem; }
+.botonInfo-6{ top: 20.5rem; }
+
+.muestrabtn{ z-index:3 }
+
+.btn-animacion{
+    
+    background: #393E7C;
+    color: #fff;
+    text-align: center;
+    line-height: 2rem;
+    border: 2px solid #393E7C;
+
+}
+.btn-animacion:hover{ background:#fff; color:#393E7C; }
+
+
+@media screen and (max-width: 1190px) {
+    .contenedorTextosAdic p { width: 49%; }
+    .botonInfo-3 { top: 11.5rem; }
+    .botonInfo-4 { top: 16.5rem; }
+    .botonInfo-5 { top: 19.5rem; }
+    .botonInfo-6 { top: 22.5rem; }
+    .contenedorTextosAdic { min-height: 24rem; } 
+}
+
+
+@media screen and (max-width: 991px) {
+    .puntosMenu { padding: 1rem; padding-left:23rem; }
+    #actBoton-0 { left: 1rem; }
+    #actBoton-1 { left: 1rem; }
+    #actBoton-2 { left: 8rem; }
+    #actBoton-3 { left: 15rem; }
+    #actBoton-4 { left: 1rem; }
+    #actBoton-5 { left: 8rem; }
+    #actBoton-6 { left: 15rem; }
+    .puntosMenu { padding-left: 22rem; }
+    .contenedorTextosAdic { padding: 1rem; }
+    .contenedorTextosAdic p { width: 43%; }
+    .botonInfo-1 { top: 1.5rem; }
+    .botonInfo-3 { top: 13.5rem; }    
+    .botonInfo-4 { top: 20.5rem; }
+    .contenedorTextosAdic { min-height:28.5rem; }
+    .botonInfo-5 { top: 23.5rem; }
+    .botonInfo-6 { top: 26.5rem; }
+
+    
+}
+
+@media screen and (max-width: 767px) {
+    .contenedor-movil{ background:#EFEFEF; padding:1rem }
+    .lista{ list-style:none; margin:0; padding:0; }
+}

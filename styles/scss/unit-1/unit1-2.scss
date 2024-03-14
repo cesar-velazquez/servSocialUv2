@@ -1,0 +1,67 @@
+.collapsables-gi-2 {
+    table {
+        margin-bottom: 2rem;
+        
+        td {
+            border-width: 4px;
+        }
+        tr {
+            td:first-of-type {
+                border-left: none;
+            }
+            td:last-of-type {
+                border-right: none;
+            }
+        }
+    }
+}
+
+.u1-2-block {
+    
+    div {
+        padding: 1rem;
+
+        p, ul {
+            margin-bottom: 0;
+        }
+    }
+
+    > div:nth-child(odd) {
+        background: $color-azul-claro;    
+    }
+
+    > div:nth-child(even) {
+        background: $color-blanco;    
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .u1-2-block {
+        & > div {
+            display: flex;
+            padding: 0;
+            border-bottom: $color-azul 2px solid;
+
+            & > div {
+                display: flex;
+                align-items: center;
+            }
+
+            & > div:first-of-type {
+                width: 60%;
+                border-right: $color-azul 2px solid;
+            }
+
+
+            & > div:last-of-type {
+                width: 40%;
+            }
+        }
+
+        & > div:first-of-type {
+            & > div:last-of-type {
+                justify-content: center;
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.u2-img-intro {
+    margin-bottom: 2rem;
+    
+    img {
+        display: block;
+        margin: auto;
+        max-width: 700px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+@import 'unit-2-1';
+@import 'unit-2-2';
+@import 'unit-2-3';
+@import 'unit-2-5';

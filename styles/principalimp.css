@@ -1,0 +1,69 @@
+@charset "UTF-8";
+.contenido-principal{ margin-top:0; }
+.activity{ padding: 10px; box-shadow:none; background:#fff; }
+.imprime{margin-top: 0; width: 100% }
+
+.noimprime{ display:none !important; }
+
+.imprime > p, .imprime ul, .imprime ol{ display:none !important; }
+.fondo-cla p{ display:none !important; }
+.combo-flecha{ display:none; }
+.titulo-evaluacion{ color:#000; border: 1px solid #000; background: none; margin-bottom:1px;}
+
+.contenedor-boton--derecha{ display:none; }
+
+.titulo-actividad{ display:block; background:none; padding-left:0; color:#000; }
+.cont-eval{ display:block; }
+
+
+.gridEvaluacion{ border: 1px solid #000;
+    border-top: 0; margin-bottom:1px; }
+.gridEvaluacion .opciones{     border-left: 1px solid #000; }
+.gridEvaluacion label{ margin-bottom:0; }
+.forum{ display:none; }
+.activity::before { display:none; }
+.act303_globo{ background:#fff; border:1px solid #000; border-radius:0; }
+p.titulo-imprimir{ display: block !important;}
+h3.titulo-imprimir{ display: block !important;}
+
+.imprime p.titulo-solo-imp{ display:block !important; }
+.separador-gris{ display:none; }
+
+.titulo-actividad{ font-size:1.3rem !important; }
+.act401{ background:none !important; }
+
+select{ font-size:1.3rem !important }
+
+label, legend {
+  font-size: 1.3rem;
+}
+select{ 
+    width: 100% !important;
+    margin-bottom: 5px;
+    font-size: 1.3em !important;
+}
+
+body { margin:0 0 0 0; }
+
+p{ font-size:1.3rem !important; margin-bottom:1rem;}
+
+.salto{ page-break-after: always; }
+
+.martop7{ padding-top:5rem !important; }
+
+.margen-imprime{ border-top:2px solid #000 !important; }
+
+.btn-descarga{ display:none; }
+
+.borde-rojo, .borde-rojod{ border:none; }
+
+.questions-sep{ background:none; padding: 1rem 2rem  }
+
+.separador{ display:none !important; }
+.gridEvaluacion .opciones{ width:10% !important; }
+.gridEvaluacion select{ background-image:none; }
+
+.borde-rojod .fondo-cla{ padding:1rem }
+.separador-vacio{ display:none !important; }
+
+.escritura-span .movil{ display:none !important; } 

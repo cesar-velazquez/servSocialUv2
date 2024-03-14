@@ -1,0 +1,40 @@
+.modal-unidad ol {
+    padding-left: 10px;
+}
+
+.modal-unidad ol,
+.contenedor-lista__temario ol {
+    counter-reset: item;
+    padding-left: 10px;
+}
+
+.modal-unidad li,
+.contenedor-lista__temario li {
+    display: block;
+}
+
+.modal-unidad li::before,
+.contenedor-lista__temario li::before {
+    content: counters(item, ".") " ";
+    counter-increment: item;
+}
+
+.lista-inicio > li::before {
+    content: ' ';
+}
+
+.lista-inicio[start="1"] {
+    counter-reset: item 0;
+}
+
+.lista-inicio[start="2"] {
+    counter-reset: item 1;
+}
+
+.lista-inicio[start="3"] {
+    counter-reset: item 2;
+}
+
+.lista-inicio[start="4"] {
+    counter-reset: item 3;
+}

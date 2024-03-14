@@ -1,0 +1,127 @@
+@import 'pleca';
+
+.sidebar {
+    background-color: $color-azul;
+    width: 400px;
+    position: fixed;
+    top: 0;
+    left: -400px;
+    height: 100%;
+    z-index: 999;
+    transition: left 0.3s;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+}
+
+.sidebar.active {
+    left: 0;
+}
+
+.dismiss {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 998;
+    opacity: 0;
+}
+
+.overlay.active {
+    display: block;
+    opacity: 1;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.contenido {
+    overflow: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.sidebar__encabezado {
+    align-items: center;
+    display: flex;
+    height: 3rem;
+    justify-content: flex-end;
+    padding: 0 1rem;
+}
+
+.sidebar__enlace,
+.sidebar__dismiss {
+    color: $color-blanco;
+    font-size: 1rem;
+    transition: background 200ms linear,
+                color 200ms linear;
+}
+
+.sidebar__enlace.deshabilitado {
+    cursor: default;
+}
+
+.sidebar__dismiss:hover,
+.sidebar__enlace:hover {
+    color: $color-azul !important;
+    background: $color-blanco;
+}
+
+.sidebar__enlace {
+    display: block;
+    padding: 1rem;
+}
+
+.sidebar__elemento--borde {
+    border-bottom: 1px $color-blanco solid;
+}
+
+.sidebar__lista {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar__dismiss {
+    padding: .5rem;
+}
+
+.sidebar__collapse {
+    background-color: $color-azul !important;
+    border-radius: 0;
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    margin: 0;
+    padding: .75rem 1.25rem !important;
+    position: fixed;
+    top: 1rem;
+    z-index: 900;
+    text-transform: uppercase;
+    box-shadow: none !important;
+}
+
+@media screen and (min-width: 768px) {
+    .sidebar__collapse {
+        top: 6rem;
+    }
+}
