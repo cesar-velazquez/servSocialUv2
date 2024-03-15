@@ -41,11 +41,9 @@
 .botonInfo-4{ top:2rem; left:2rem; width:94%; }
 .muestrabtn{ z-index:3 }
 
-.btn-animacion{
-    
+.btn-animacion{    
     background: #393E7C;
-    color: #fff;
-   
+    color: #fff;   
     text-align: center;
     line-height: 2rem;
     border: 2px solid #393E7C;

@@ -1,0 +1,37 @@
+.w-btn{
+    width: 200px;
+    background-color: red;
+    background: #393E7C;
+    color: #fff;
+    text-align: center;
+    line-height: 2rem;
+    border: 2px solid #393E7C;
+}
+
+.unit-parrafo{
+    margin-bottom: -.5rem;
+    text-align: center;      
+}
+
+.container-button{    
+    padding: 1rem;
+    position: relative;
+}
+.line-unit{
+    width: 65px;
+    height: 3px;
+    background-color: #823F6A;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+}
+.titulo-section-temario{    
+    width: 450px;    
+    margin: auto;
+    background-color: #ffffff;    
+    padding: 1.5rem .5rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
