@@ -1,0 +1,125 @@
+/* Estilos - Formas de la discriminación */
+.tab-content {
+    padding: 2rem;
+}
+
+.tabs-titulo {
+    font-size: 1.3125rem;
+    font-weight: bold;
+}
+
+.tam-tab {
+    width: 33%;
+}
+
+.nav-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.tab-pane {
+    padding: 2rem;
+}
+
+.tam-content {
+    min-height: 27rem;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width: 992px) {
+
+    .tam-tab {
+        width: 33% !important;
+    }
+
+}
+
+.ajuste-altura {
+    height: 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ajuste-altura span {
+    align-self: center;
+}
+
+.bg-tab-content {
+    background: rgb(231, 247, 245);
+    background: linear-gradient(to bottom, #E7EFF7, #EDF0F3, #F2F0F0, #F8F1EC);
+    border: 2px solid #393E7C;
+}
+
+li.nav-item.tab-1-item.waves-effect.waves-light a.active {
+    color: #393E7C !important;
+    background: #fff !important;
+    border: 2px solid #393E7C !important;
+}
+
+.nav-tabs .nav-item {
+    margin-bottom: -1px;
+}
+
+li.nav-item.tab-1-item.waves-effect.waves-light a {
+    color: #fff !important;
+    background: #393E7C !important;
+
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    border-color: transparent;
+}
+
+@media screen and (max-width: 991px) {
+
+    .tam-tab {
+        width: 33.33%;
+    }
+
+    .tam-tab-2 {
+        width: 50%;
+    }
+}
+
+.bg-verde-formas {
+    background-color: #F3F9F8;
+}
+
+.bg-verde-formas-2 {
+    background-color: #fff;
+}
+
+/*  */
+
+.instruccion-color--verde {
+    color: #318d53;
+    font-weight: normal;
+}
+
+@media screen and (min-width: 768px) {
+    .parrafo {
+        font-size: 1.5rem !important;
+        font-weight: normal !important;
+    }
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+
+li.nav-item.tab-1-item.waves-effect.waves-light a.active {
+    color: #482567 !important;
+    background: #fff !important;
+    border: 2px solid #482567 !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}

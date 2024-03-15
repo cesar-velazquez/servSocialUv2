@@ -3466,7 +3466,16 @@ figure:hover .group-botones {
 }
 
 .radial-ellipse-size {
-  margin: 3rem 0 1rem 0;
+  margin: 2rem 0 1rem 0;
+  background: radial-gradient(ellipse 37% 23px, #EBF0EF, #EBF0EF 10%, #F7FAFD 50%, #fff);
+  width: 100%;
+  height: 3rem;
+  background-position-y: -21px;
+  background-repeat: no-repeat;
+}
+
+.radial-ellipse-size-movil {
+  margin: -1rem 0 0;
   background: radial-gradient(ellipse 37% 23px, #EBF0EF, #EBF0EF 10%, #F7FAFD 50%, #fff);
   width: 100%;
   height: 3rem;
@@ -3646,6 +3655,7 @@ a:hover {
   text-align: center;
   margin: 0 auto;
   width: 90%;
+  flex-wrap: wrap;
 }
 
 .cards-animate img {
@@ -3735,7 +3745,7 @@ a:hover {
 }
 
 @media screen and(min-width: 768px) {
-  .ocultar{
+  .ocultar {
     background-color: red;
   }
 }

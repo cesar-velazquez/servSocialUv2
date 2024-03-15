@@ -1,0 +1,11 @@
+titutlo principal 2rem
+
+Escritorio
+titulos:
+subtítulos: de 2rem; 32px 
+contenido: 1.3125rem. 20.8px
+
+Movil
+titulos:
+subtítulos 1.3rem   20.8px
+contenido 1.1250rem  18px

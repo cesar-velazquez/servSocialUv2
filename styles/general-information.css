@@ -1,4 +1,4 @@
-.w-btn{
+.w-btn {
     width: 200px;
     background-color: red;
     background: #393E7C;
@@ -8,16 +8,17 @@
     border: 2px solid #393E7C;
 }
 
-.unit-parrafo{
+.unit-parrafo {
     margin-bottom: -.5rem;
-    text-align: center;      
+    text-align: center;
 }
 
-.container-button{    
+.container-button {
     padding: 1rem;
     position: relative;
 }
-.line-unit{
+
+.line-unit {
     width: 65px;
     height: 3px;
     background-color: #823F6A;
@@ -27,11 +28,28 @@
     margin: auto;
     position: absolute;
 }
-.titulo-section-temario{    
-    width: 450px;    
+
+.titulo-section-temario {
+    width: 450px;
     margin: auto;
-    background-color: #ffffff;    
+    background-color: #ffffff;
     padding: 1.5rem .5rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
+}
+
+.position-btn-evaluation {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.section-img {
+    padding: 1rem;
+}
+
+.img-section {
+    display: flex;
+    margin: auto;
+    width: 90%;
 }
