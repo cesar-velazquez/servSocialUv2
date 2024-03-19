@@ -58,7 +58,7 @@
 }
 
 .ulist{
-    padding: 0.4rem 1.4rem;
+    padding: 0.4rem 1.3rem;
 }
 
 .li-list{
@@ -85,4 +85,5 @@
     display: flex;    
     justify-content: end;
     align-items: flex-start;
+    text-align: end;
 }

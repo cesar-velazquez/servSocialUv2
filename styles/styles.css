@@ -29,7 +29,8 @@ button.btn.btn-link.u1-p1__btn--desk--g {
 .unidad__titulo {
   font-size: 1.3rem !important;
 }
-.colorm{
+
+.colorm {
   color: #482567;
 }
 
@@ -68,6 +69,15 @@ p.actividad-titulo,
 table,
 tr {
   font-size: 1.125rem !important;
+}
+.bold{
+  font-weight: bold;
+}
+
+@media screen and (min-width: 767px) {
+  .units-h {    
+    font-size: 1.3rem;
+  }
 }
 
 .header__bran {
