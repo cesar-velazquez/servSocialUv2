@@ -36,6 +36,9 @@
     padding: 1.5rem .5rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
+    color: #393E7C;
+    font-weight: bold;
+    font-size: 1.3rem;
 }
 
 .position-btn-evaluation {
@@ -52,4 +55,34 @@
     display: flex;
     margin: auto;
     width: 90%;
+}
+
+.ulist{
+    padding: 0.4rem 1.4rem;
+}
+
+.li-list{
+    padding-left: 1rem;
+}
+
+.subtitles{
+    color: #482567;
+    font-weight: bold;
+}
+
+.fondotabs-movil{
+    background-color: #F8F6F6;
+}
+
+.space{
+    padding: 1rem 0;
+}
+.mt{
+    margin-top: 2rem;
+}
+
+.from-ul{
+    display: flex;    
+    justify-content: end;
+    align-items: flex-start;
 }

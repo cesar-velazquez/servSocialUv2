@@ -29,6 +29,9 @@ button.btn.btn-link.u1-p1__btn--desk--g {
 .unidad__titulo {
   font-size: 1.3rem !important;
 }
+.colorm{
+  color: #482567;
+}
 
 p,
 li,
@@ -604,7 +607,7 @@ th {
   }
 
   .presentacion__titulo h1 {
-    color: #372E5C;
+    color: #482567;
     border-left: 5px #CE5958 solid;
     padding: 0.5rem;
   }
@@ -727,7 +730,8 @@ th {
 
 .experto__enlace-modal {
   justify-self: end;
-  background: #372E5C !important;
+  /* background: #372E5C !important; */
+  background: #482567 !important;
   color: #ffffff !important;
   text-decoration: none !important;
   text-transform: none;
@@ -3058,6 +3062,7 @@ h2 {
 
 .seccion__titulo {
   font-size: 2rem !important;
+  font-weight: bold;
 }
 
 .seccion--dg-1 {
@@ -3280,6 +3285,7 @@ h2 {
 
 .seccion__titulo2 {
   font-size: 2rem !important;
+  font-weight: bold;
 }
 
 figure {

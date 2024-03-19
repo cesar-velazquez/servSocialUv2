@@ -1,4 +1,4 @@
-titutlo principal 2rem
+titutlo principal 2rem = 32px font Lato
 
 Escritorio
 titulos:
