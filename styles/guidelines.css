@@ -1,0 +1,43 @@
+.m-top {
+    margin-top: 2rem;
+}
+
+.color-target {
+    background-color: #F4F4F4;    
+    width: 950px;
+    margin: auto;
+}
+td{
+    padding: .5rem;
+}
+.back-title {
+    background: rgb(225, 201, 227);
+    background: linear-gradient(90deg, rgba(225, 201, 227, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    padding: .5rem;
+}
+
+.btn-a{
+    background-color: #482567;
+    color: white;
+    width: 30%;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 991px){
+    .color-target{        
+        width: 700px;
+    }
+
+    .btn-a{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .color-target{        
+        width: 85%;
+    }
+    .btn-a{
+        width: 50%;
+    }
+}
